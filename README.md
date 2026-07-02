@@ -29,7 +29,7 @@ To run this project locally for testing or modification:
 
 Clone the repository:
 ```bash
-git clone [https://github.com/karanbe17/crestpoint-outsourcing.git](https://github.com/karanbe17/crestpoint-outsourcing.git)
+git clone https://github.com/karanbe17/crestpoint-outsourcing.git
 
 Navigate into the directory:
 ```bash
