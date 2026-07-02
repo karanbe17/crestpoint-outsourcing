@@ -30,10 +30,12 @@ To run this project locally for testing or modification:
 Clone the repository:
 ```bash
 git clone https://github.com/karanbe17/crestpoint-outsourcing.git
+'''
 
 Navigate into the directory:
 ```bash
 cd crestpoint-outsourcing
+'''
 
 Launch via Live Server (VS Code) or simply open index.html in your preferred browser.
 
