@@ -1,6 +1,6 @@
 # Crestpoint Outsourcing 📊
 
-> Official corporate website for Crestpoint Outsourcing, a London-based accounting and financial services firm.
+> Official corporate website for Crestpoint Outsourcing, an accounting and financial services firm.
 
 🌎 **[View Live Demo](https://karanbe17.github.io/crestpoint-outsourcing/)**
 
@@ -32,15 +32,14 @@ Clone the repository:
 git clone [https://github.com/karanbe17/crestpoint-outsourcing.git](https://github.com/karanbe17/crestpoint-outsourcing.git)
 
 Navigate into the directory:
-
 ```bash
 cd crestpoint-outsourcing
 
-Launch via Live Server (VS Code) or simply open `index.html` in your preferred browser.
+Launch via Live Server (VS Code) or simply open index.html in your preferred browser.
 
-## 🗺️ Roadmap / Future Enhancements
-- [ ] **Backend Form Processing:** Integration of a secure form handler to route client inquiries (Contact and Pricing forms) directly to administrative inboxes.
-- [ ] **Custom Domain Mapping:** Configuration of DNS records (A/CNAME) to map the deployment to the client's official `.co.uk` domain.
+🗺️ Roadmap / Future Enhancements
+[ ] Backend Form Processing: Integration of a secure form handler to route client inquiries (Contact and Pricing forms) directly to administrative inboxes.
 
----
-*Designed and developed for Crestpoint Outsourcing.*
+[ ] Custom Domain Mapping: Configuration of DNS records (A/CNAME) to map the deployment to the client's official .co.uk domain.
+
+Designed and developed for Crestpoint Outsourcing.
