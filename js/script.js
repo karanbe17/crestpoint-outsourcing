@@ -1,40 +1,20 @@
-// ===== NAVBAR SCROLL EFFECT =====
+// Navbar Scroll Effect
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
   if (window.scrollY > 20) {
-    navbar.classList.add('scrolled');
+    navbar.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
   } else {
-    navbar.classList.remove('scrolled');
+    navbar.style.boxShadow = 'none';
   }
 });
 
-// ===== HAMBURGER MENU =====
-const hamburger = document.getElementById('hamburger');
-const mobileMenu = document.getElementById('mobileMenu');
-
-hamburger.addEventListener('click', () => {
-  mobileMenu.classList.toggle('open');
-});
-
-document.querySelectorAll('.mobile-menu a').forEach(link => {
-  link.addEventListener('click', () => {
-    mobileMenu.classList.remove('open');
+// Generic Form Handler
+const forms = document.querySelectorAll('form');
+forms.forEach(form => {
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    // Front-end confirmation for the prototype
+    alert('Thank you! Your submission has been received. We will contact you shortly.');
+    form.reset();
   });
-});
-
-// ===== SCROLL ANIMATIONS =====
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.style.opacity = '1';
-      entry.target.style.transform = 'translateY(0)';
-    }
-  });
-}, { threshold: 0.1 });
-
-document.querySelectorAll('.service-card, .why-card, .stat-box, .hero-card').forEach(el => {
-  el.style.opacity = '0';
-  el.style.transform = 'translateY(20px)';
-  el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-  observer.observe(el);
 });
